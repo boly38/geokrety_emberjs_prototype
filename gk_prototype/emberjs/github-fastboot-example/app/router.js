@@ -8,7 +8,7 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route('gitlabuser');
-  this.route('geokrets');
+  this.route('geokrety');
   this.route('contact');
   this.route('about');
 });

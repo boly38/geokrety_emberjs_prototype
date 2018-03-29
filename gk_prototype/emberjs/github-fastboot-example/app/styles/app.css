@@ -14,7 +14,7 @@
 
 
 .kretfoto {
-    background: url(https://raw.githubusercontent.com/geokrety/GeoKrety-Static/master/content/images/help/kret-foto.jpg);
+    background: url(https://cdn.geokrety.org/images/help/kret-foto.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     height: 200px;

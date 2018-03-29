@@ -9,11 +9,11 @@
 
 ### run locally using emberjs
 
-    (prototype dir)/DEV_run.sh
+	(prototype dir)/DEV_run.sh
 
 ### run locally using docker machine and custom apache container
 
-    (root dir)/DEV_run_emberjs.sh
+	(root dir)/DEV_run_emberjs.sh
 
 ## EmberJS (emberjs/github-fastboot-example)
 
@@ -43,18 +43,19 @@ See:
 	ember generate route index
 	update  app/routes/*.js + app/templates/*.hbs
 	ember install ember-cli-tutorial-style
+	ember install ember-inflector
 
 ### EmberJS and ReST Services mock
 
 Mock ReST API using ember-cli-mirage (not keeped)
 * cf. http://www.ember-cli-mirage.com/docs/v0.1.x/installation/ (mock api json)
 
-    ember install ember-cli-mirage
-    npm uninstall ember-cli-mirage --save-dev           // https://emberigniter.com/uninstall-remove-ember-add-on/
+	ember install ember-cli-mirage
+	npm uninstall ember-cli-mirage --save-dev           // https://emberigniter.com/uninstall-remove-ember-add-on/
 
 Mock as a service using Apiary
 * cf. https://geokretsapiv2mocks.docs.apiary.io/
-	
+
 
 ### EmberJS and CORS issue
 With EmberJS, how to call remove ReST endpoint with CORS security constraint ?

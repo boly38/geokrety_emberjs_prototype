@@ -81,4 +81,4 @@ echo " * Docker compose ($COMPOSE_FILE)"
 docker-compose -f $COMPOSE_FILE up -d --force-recreate || die "compose error"
 
 echo "serving ./exposed/ as https://${GKFRONT_IP}/"
-explorer "https://${GKFRONT_IP}/" || echo "done" # avoid exit 1 status with explorer
+start "" "https://${GKFRONT_IP}/"
